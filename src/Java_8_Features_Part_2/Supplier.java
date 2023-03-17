@@ -1,4 +1,4 @@
-package Java_9_17_Additions;
+package Java_8_Features_Part_2;
 
 public interface Supplier {
     int display();

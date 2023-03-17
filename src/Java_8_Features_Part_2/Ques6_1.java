@@ -1,13 +1,9 @@
-package Java_9_17_Additions;
+package Java_8_Features_Part_2;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.Scanner;
-import java.util.TimeZone;
 
-public class Six1 {
+public class Ques6_1 {
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter the date(YYYY-MM-DD)");
