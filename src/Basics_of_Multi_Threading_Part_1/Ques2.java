@@ -2,7 +2,7 @@ package Basics_of_Multi_Threading_Part_1;
 
 public class Ques2 {
     synchronized void display(){
-        Thread g = Thread.currentThread();
+      Thread g = Thread.currentThread();
         for (int i=0;i<2;i++){
             try {
                 System.out.println(g.getName()+" "+i);
